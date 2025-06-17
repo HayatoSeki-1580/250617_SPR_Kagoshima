@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPRを用いたアルコール濃度測定に関する研究機関（優位性強調版）</title>
+    <!-- Tailwind CSS CDNの読み込み -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Google Fonts - Interの読み込み */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* リストのインデント調整 */
+        ul.list-disc ul.list-circle {
+            margin-left: 1.5rem; /* より深いネストのインデントを調整 */
+        }
+        ul.list-disc ul.list-circle ul.list-square {
+            margin-left: 1.5rem; /* さらに深いネストのインデントを調整 */
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen p-4 sm:p-6 lg:p-8">
+    <div class="max-w-7xl mx-auto bg-white shadow-xl rounded-2xl p-6 sm:p-8 lg:p-10 my-8">
+        <!-- タイトルセクション -->
+        <header class="text-center mb-10">
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-800 mb-4 leading-tight">
+                表面プラズモン共鳴 (SPR) を用いた<br class="hidden sm:inline">アルコール濃度測定に関する研究動向
+            </h1>
+            <p class="text-base sm:text-lg text-gray-600">
+                国内外の主要研究機関とその具体的な研究アプローチ
+            </p>
+        </header>
+
+        <!-- イントロダクションセクション -->
+        <section class="mb-12">
+            <h2 class="text-2xl sm:text-3xl font-bold text-gray-700 mb-6 border-b-2 border-indigo-200 pb-2">
+                はじめに
+            </h2>
+            <p class="text-gray-700 leading-relaxed text-sm sm:text-base mb-4">
+                表面プラズモン共鳴（SPR）は、高感度かつリアルタイムでのラベルフリー検出を可能にする光学的手法であり、化学・バイオセンシング分野で広く応用されています。特にアルコール濃度測定においては、食品、飲料、医療、環境、そして工業プロセス管理など多岐にわたる分野での需要が高く、世界中の様々な研究機関がその開発に取り組んでいます。
+            </p>
+            <p class="text-gray-700 leading-relaxed text-sm sm:text-base">
+                本稿では、SPRを用いたアルコール濃度測定に関する国内外のアカデミックな研究に焦点を当て、主要な研究機関がどのようなアプローチで研究を進めているかを、より詳細な情報と参考文献へのリンクを交えてまとめます。
+            </p>
+        </section>
+
+        <!-- 海外の研究機関セクション -->
+        <section class="mb-12">
+            <h2 class="text-2xl sm:text-3xl font-bold text-gray-700 mb-6 border-b-2 border-indigo-200 pb-2">
+                海外の研究機関
+            </h2>
+            <p class="text-gray-700 leading-relaxed text-sm sm:text-base mb-6">
+                海外の研究機関では、SPRセンサーの感度、選択性、検出限界の向上を目指し、新しい材料や構造の導入、高度なシミュレーション技術を用いた設計最適化に注力しています。特にバイオセンシングや医療診断への応用を強く意識した研究が多いです。
+            </p>
+
+            <!-- 研究機関カード: 中国の研究機関 -->
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md mb-8 hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl sm:text-2xl font-semibold text-indigo-700 mb-3">
+                    中国の研究機関（例: East China University of Science and Technology, Harbin Institute of Technologyなど）
+                </h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2 text-sm sm:text-base">
+                    <li>
+                        <span class="font-medium">研究内容:</span> 多層構造と新材料を用いた高感度化
+                        <ul class="list-circle list-inside ml-4 text-gray-600">
+                            <li>金属薄膜に加えて、二酸化チタン（TiO2）、二酸化ケイ素（SiO2）、酸化亜鉛（ZnO）ナノフラワー、酸化鉄（Fe2O3）などの誘電体層や金属酸化物層、さらにはグラフェン、黒リン（BP）といった二次元材料を組み合わせた多層構造のSPRセンサーに関する研究が盛んです。これにより、高い感度や特定のアルコールに対する選択性の向上が報告されています。グラフェンなどの材料は、その大きな表面積や特異な電子特性により、ガス相のアルコールや高純度溶媒中の微量不純物の検出にも応用されています<sup class="text-xs">[<a href="#ref-1" class="text-blue-600 hover:underline" target="_blank">1</a>, <a href="#ref-7" class="text-blue-600 hover:underline" target="_blank">7</a>, <a href="#ref-11" class="text-blue-600 hover:underline" target="_blank">11</a>, <a href="#ref-13" class="text-blue-600 hover:underline" target="_blank">13</a>, <a href="#ref-14" class="text-blue-600 hover:underline" target="_blank">14</a>, <a href="#ref-17" class="text-blue-600 hover:underline" target="_blank">17</a>, <a href="#ref-27" class="text-blue-600 hover:underline" target="_blank">27</a>, <a href="#ref-28" class="text-blue-600 hover:underline" target="_blank">28</a>, <a href="#ref-32" class="text-blue-600 hover:underline" target="_blank">32</a>]</sup>。</li>
+                            <li><span class="font-medium">具体的な成果:</span>
+                                <ul class="list-square list-inside ml-4 text-gray-600">
+                                    <li>**Fe2O3/Au構造**を用いたSPRアルコールセンサーが開発され、2933.2 nm/RIUという高い感度を達成しています（純金膜と比較して30.26%の感度向上）。これはナノα-Fe2O3粒子の光学特性と吸着特性に起因するとされています<sup class="text-xs">[<a href="#ref-7" class="text-blue-600 hover:underline" target="_blank">7</a>, <a href="#ref-11" class="text-blue-600 hover:underline" target="_blank">11</a>, <a href="#ref-27" class="text-blue-600 hover:underline" target="_blank">27</a>, <a href="#ref-32" class="text-blue-600 hover:underline" target="_blank">32</a>]</sup>。</li>
+                                    <li>**グラフェン-金ハイブリッドメタサーフェス**を用いたアセトン、メタノール、エタノールなどのアルコール化合物検出の研究も進められており、感度およびその他の性能指標を大幅に向上させることが示されています<sup class="text-xs">[<a href="#ref-28" class="text-blue-600 hover:underline" target="_blank">28</a>]</sup>。グラフェンのπ-πスタッキング相互作用は、特定の化合物の吸着を強化し、不純物の選択的検出にも寄与します<sup class="text-xs">[<a href="#ref-14" class="text-blue-600 hover:underline" target="_blank">14</a>, <a href="#ref-18" class="text-blue-600 hover:underline" target="_blank">18</a>, <a href="#ref-21" class="text-blue-600 hover:underline" target="_blank">21</a>, <a href="#ref-42" class="text-blue-600 hover:underline" target="_blank">42</a>]</sup>。</li>
+                                    <li>**ZnOナノフラワー/Au**を用いたセンサーは、アルコール検出の感度が127 nm/%に向上しました。ZnOは安価で無毒であり、その表面空孔がアルコール分子を吸着することでSPR強度を向上させます<sup class="text-xs">[<a href="#ref-13" class="text-blue-600 hover:underline" target="_blank">13</a>, <a href="#ref-28" class="text-blue-600 hover:underline" target="_blank">28</a>]</sup>。</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 研究機関カード: インドの研究機関 -->
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md mb-8 hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl sm:text-2xl font-semibold text-indigo-700 mb-3">
+                    インドの研究機関（例: Indian Institute of Technology Delhiなど）
+                </h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2 text-sm sm:text-base">
+                    <li>
+                        <span class="font-medium">研究内容:</span> ナノ材料をSPRセンシング層に導入
+                        <ul class="list-circle list-inside ml-4 text-gray-600">
+                            <li>グラフェン、遷移金属ジカルコゲナイド（TMDCs）、黒リン（BP）などのナノ材料をSPRセンシング層に導入し、高感度なアルコール検出器の開発に取り組んでいます<sup class="text-xs">[<a href="#ref-9" class="text-blue-600 hover:underline" target="_blank">9</a>, <a href="#ref-10" class="text-blue-600 hover:underline" target="_blank">10</a>, <a href="#ref-14" class="text-blue-600 hover:underline" target="_blank">14</a>, <a href="#ref-17" class="text-blue-600 hover:underline" target="_blank">17</a>, <a href="#ref-28" class="text-blue-600 hover:underline" target="_blank">28</a>, <a href="#ref-38" class="text-blue-600 hover:underline" target="_blank">38</a>, <a href="#ref-40" class="text-blue-600 hover:underline" target="_blank">40</a>]</sup>。これらの材料は、特定のアルコール分子との強い相互作用を利用することで、選択性と感度を向上させることを目指しています。</li>
+                            <li><span class="font-medium">具体的な成果:</span>
+                                <ul class="list-square list-inside ml-4 text-gray-600">
+                                    <li>黒リン（BP）はSPR感度向上に有望な2D材料であり、水-アルコール含有量に対してAg/BP/SiO2/BK7プリズムで400 deg/RIUといった高い感度値を示す研究があります<sup class="text-xs">[<a href="#ref-9" class="text-blue-600 hover:underline" target="_blank">9</a>, <a href="#ref-10" class="text-blue-600 hover:underline" target="_blank">10</a>, <a href="#ref-14" class="text-blue-600 hover:underline" target="_blank">14</a>, <a href="#ref-17" class="text-blue-600 hover:underline" target="_blank">17</a>, <a href="#ref-28" class="text-blue-600 hover:underline" target="_blank">28</a>, <a href="#ref-38" class="text-blue-600 hover:underline" target="_blank">38</a>, <a href="#ref-40" class="text-blue-600 hover:underline" target="_blank">40</a>]</sup>。</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 研究機関カード: マレーシアの大学 -->
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md mb-8 hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl sm:text-2xl font-semibold text-indigo-700 mb-3">
+                    マレーシアの大学（例: Universiti Teknologi MARAなど）
+                </h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2 text-sm sm:text-base">
+                    <li>
+                        <span class="font-medium">研究内容:</span> 酵素を用いたバイオSPRセンサー
+                        <ul class="list-circle list-inside ml-4 text-gray-600">
+                            <li>アルコールデヒドロゲナーゼ（ADH）などの酵素をSPRセンシング表面に固定化することで、特定のアルコール（エタノールなど）に対する高い選択性を持つバイオセンサーの開発が進められています<sup class="text-xs">[<a href="#ref-33" class="text-blue-600 hover:underline" target="_blank">33</a>]</sup>。酵素反応によって生じる副生成物（例: NADH）がSPRシグナルに影響を与えることで、アルコール濃度を検出します。</li>
+                            <li><span class="font-medium">具体的な成果:</span>
+                                <ul class="list-square list-inside ml-4 text-gray-600">
+                                    <li>**光ファイバー型SPRセンサー**にアルコールデヒドロゲナーゼとニコチン酸を固定化し、エタノールを検出する研究が行われており、0-10 mMのエタノール濃度に対して合計18.33 nmの共鳴波長シフトが観測され、特に低濃度域で良好な感度を示しています<sup class="text-xs">[<a href="#ref-33" class="text-blue-600 hover:underline" target="_blank">33</a>]</sup>。</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 研究機関カード: 韓国のソウル大学 -->
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md mb-8 hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl sm:text-2xl font-semibold text-indigo-700 mb-3">
+                    韓国のソウル大学（Seoul National University）
+                </h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2 text-sm sm:text-base">
+                    <li>
+                        <span class="font-medium">研究内容:</span> 高純度溶媒中の微量不純物検出
+                        <ul class="list-circle list-inside ml-4 text-gray-600">
+                            <li>高純度イソプロピルアルコール（IPA）中の微量な芳香族化合物（不純物、例: 2,4-ジニトロフェノール）を検出するSPRセンサーの研究を行っています<sup class="text-xs">[<a href="#ref-21" class="text-blue-600 hover:underline" target="_blank">21</a>]</sup>。</li>
+                            <li><span class="font-medium">具体的な成果:</span>
+                                <ul class="list-square list-inside ml-4 text-gray-600">
+                                    <li>Au/グラフェン構造を利用し、サブppmレベルの検出感度を達成しており、半導体製造プロセスなどにおける品質管理への応用が期待されています<sup class="text-xs">[<a href="#ref-21" class="text-blue-600 hover:underline" target="_blank">21</a>]</sup>。グラフェンのπ-πスタッキング相互作用が選択的な検出を強化します<sup class="text-xs">[<a href="#ref-21" class="text-blue-600 hover:underline" target="_blank">21</a>, <a href="#ref-42" class="text-blue-600 hover:underline" target="_blank">42</a>]</sup>。</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 日本国内の研究機関セクション -->
+        <section class="mb-12">
+            <h2 class="text-2xl sm:text-3xl font-bold text-gray-700 mb-6 border-b-2 border-indigo-200 pb-2">
+                日本国内の研究機関
+            </h2>
+            <p class="text-gray-700 leading-relaxed text-sm sm:text-base mb-6">
+                日本国内の研究機関では、SPRセンサーの小型化、実用化、そして特定のアプリケーションに特化した高精度な検出方法の開発に注力しています。特に光ファイバー型センサーや、温度補償などの実用化に向けた工夫、さらには特定のアルコールに対する選択性付与の研究が見られます。
+            </p>
+
+            <!-- 研究機関カード: 鹿児島大学 満塩研究室 (Professor Masaru Mitsushio, Kagoshima University) -->
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md mb-8 hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl sm:text-2xl font-semibold text-indigo-700 mb-3">
+                    鹿児島大学 満塩研究室（満塩 勝 先生）
+                </h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2 text-sm sm:text-base">
+                    <li>
+                        <span class="font-medium">研究内容:</span> 高精度・選択的な光ファイバー/ガラス棒型SPRセンサーの開発と実用応用
+                        <ul class="list-circle list-inside ml-4 text-gray-600">
+                            <li><span class="font-medium">光ファイバー型SPRセンサー:</span> 金または銀を蒸着した光ファイバーコアを用いたSPRセンサーの研究に長年取り組んでいます。小型化、リアルタイム測定、低コスト化を目指し、LEDを光源とした簡便なシステムを開発しています<sup class="text-xs">[<a href="#ref-2_2_jp" class="text-blue-600 hover:underline" target="_blank">参2.2</a>, <a href="#ref-2_4_jp" class="text-blue-600 hover:underline" target="_blank">参2.4</a>, <a href="#ref-2_5_jp" class="text-blue-600 hover:underline" target="_blank">参2.5</a>]</sup>。</li>
+                            <li><span class="font-medium">ガラス棒型SPRセンサー:</span> 角形断面を持つガラス棒に金薄膜を形成し、光の偏光を利用して独立した複数面のSPR応答を同時に測定する多機能センサーシステムを開発しています。これにより、エタノールとグルコースの混合溶液からエタノール濃度のみを選択的に測定することが可能です<sup class="text-xs">[<a href="#ref-1_3_jp" class="text-blue-600 hover:underline" target="_blank">参1.3</a>, <a href="#ref-1_8_jp" class="text-blue-600 hover:underline" target="_blank">参1.8</a>]</sup>。</li>
+                            <li><span class="font-medium">選択性付与のための機能膜:</span> ガス透過性の高いテフロンAF2400を主体とする選択膜を金属蒸着ガラス棒SPRセンサーに被覆することで、揮発性アルコールやガソリン中の特定の成分（バイオエタノールなど）を選択的に検出する研究を行っています。これにより、混合物中のターゲットアルコールのみに応答する高選択性を実現しています<sup class="text-xs">[<a href="#ref-1_4_jp" class="text-blue-600 hover:underline" target="_blank">参1.4</a>, <a href="#ref-1_8_jp" class="text-blue-600 hover:underline" target="_blank">参1.8</a>, <a href="#ref-2_6_jp" class="text-blue-600 hover:underline" target="_blank">参2.6</a>]</sup>。</li>
+                            <li><span class="font-medium">温度補償技術:</span> 実用化に向けた課題として、温度変化がSPR信号に与える影響を補償する技術も検討しています。</li>
+                            <li><span class="font-medium">具体的な成果:</span>
+                                <ul class="list-square list-inside ml-4 text-gray-600">
+                                    <li>金蒸着光ファイバー屈折率センサーシステムを用いたアルコールの定量分析では、角度変化や波長掃引が不要なシステムが開発され、フェネチルアルコールやエタノールなどの様々なアルコールを0-5%程度の濃度範囲で定量分析できることが示されています<sup class="text-xs">[<a href="#ref-31" class="text-blue-600 hover:underline" target="_blank">31</a>]</sup>。</li>
+                                    <li>高精度の金蒸着ガラス棒SPRセンサーシステムでは、エタノール水溶液、ベンジルアルコールのメタノール溶液、2-プロパノールのエタノール溶液に対して、それぞれ約5×10⁻⁵ RIUの屈折率変化の検出限界を達成し、従来のセンサーと比較して約4倍の高感度化を実現しています<sup class="text-xs">[<a href="#ref-2_8_jp" class="text-blue-600 hover:underline" target="_blank">参2.8</a>]</sup>。焼酎中のエタノール濃度差約0.2 vol%（約1×10⁻⁴ RIU変化）の検出も可能です<sup class="text-xs">[<a href="#ref-2_8_jp" class="text-blue-600 hover:underline" target="_blank">参2.8</a>]</sup>。</li>
+                                    <li>自動車エンジンオイル中の炭化水素やガソリン成分の分離・検出にも、テフロン被覆センサーが応用されています<sup class="text-xs">[<a href="#ref-1_5_jp" class="text-blue-600 hover:underline" target="_blank">参1.5</a>]</sup>。</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="font-medium">優位性と差別化ポイント:</span>
+                        <ul class="list-circle list-inside ml-4 text-gray-600">
+                            <li>**実用性と簡便性への特化:** 複雑な光学系を必要としない**LED光源の採用**や**光ファイバー/ガラス棒といったシンプルなセンサー素子の利用**により、システムの小型化と低コスト化を実現しています。これは、従来の大型で高価なSPR装置と比較して、**現場での利用（オンサイト測定）や携帯性を重視**している点で大きく差別化されます。</li>
+                            <li>**複合物質からの選択的検出能力:** テフロンAF2400などの機能膜や偏光を用いた多機能センサーシステムにより、**グルコースを含む混合液からエタノールのみを選択的に検出できる**など、実用環境における干渉物質の影響を排除し、ターゲットアルコールを高精度に測定する能力が非常に高いです。これは、単なる屈折率変化の測定に留まらず、**化学的な選択性を付与**している点が大きな強みです。</li>
+                            <li>**幅広い実用応用:** 焼酎の濃度測定やエンジンオイル中のガソリン成分検出など、**特定の産業や製品への応用**を強く意識した研究を進めており、アカデミアの研究成果が直接的に社会実装へと繋がる可能性を追求しています。</li>
+                            <li>**安定性と堅牢性への配慮:** 温度補償技術の検討など、実環境下での**長期的な安定性や信頼性**を確保するための工夫がなされています。</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 研究機関カード: 新潟大学 -->
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md mb-8 hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl sm:text-2xl font-semibold text-indigo-700 mb-3">
+                    新潟大学 スマートセンサー研究室
+                </h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2 text-sm sm:text-base">
+                    <li>
+                        <span class="font-medium">研究内容:</span> スマートフォン統合型小型SPRデバイスの開発
+                        <ul class="list-circle list-inside ml-4 text-gray-600">
+                            <li>フィールドでの迅速な生体分析測定を目的とし、スマートフォンと統合された小型SPRデバイスの開発を進めています<sup class="text-xs">[<a href="#ref-35" class="text-blue-600 hover:underline" target="_blank">35</a>, <a href="#ref-36" class="text-blue-600 hover:underline" target="_blank">36</a>, <a href="#ref-52" class="text-blue-600 hover:underline" target="_blank">52</a>]</sup>。これにより、従来の大型機器が不要となり、様々な環境での利用が期待されます。</li>
+                            <li><span class="font-medium">具体的な成果:</span>
+                                <ul class="list-square list-inside ml-4 text-gray-600">
+                                    <li>スマートフォンに装着可能なコンパクトなSPRセンサーシステムは、高感度な生体分子検出を可能にし、将来的にはアルコール検出を含む多岐にわたる化学・バイオセンシングへの応用が見込まれます<sup class="text-xs">[<a href="#ref-35" class="text-blue-600 hover:underline" target="_blank">35</a>, <a href="#ref-36" class="text-blue-600 hover:underline" target="_blank">36</a>]</sup>。</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="font-medium">優位性と差別化ポイント:</span>
+                        <ul class="list-circle list-inside ml-4 text-gray-600">
+                            <li>**究極の携帯性と利便性:** **スマートフォンとの直接的な統合**という点で、SPRセンサーの携帯性とユーザーフレンドリーさを極限まで高めています。これにより、専門的な知識がないユーザーでも、**どこでも簡単に測定できる**という革新的な価値を提供し、従来の実験室分析との大きな差別化を図っています。</li>
+                            <li>**低コスト化とアクセシビリティ:** スマートフォンを光源や検出器として活用することで、SPRシステムの**全体的なコストを大幅に削減**できる可能性を秘めています。これは、SPR技術の**普及と民主化**に貢献し、医療診断や環境モニタリングなど、より広範なアプリケーション分野での利用を促進します。</li>
+                            <li>**分散型センシングネットワークへの貢献:** 個々のスマートフォンがセンサーとして機能することで、広範囲にわたる**分散型リアルタイムセンシングネットワーク**の構築に貢献する可能性があり、ビッグデータ分析と組み合わせることで新たな価値創出が期待されます。</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 研究機関カード: 神奈川大学 理学部 化学科 -->
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md mb-8 hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl sm:text-2xl font-semibold text-indigo-700 mb-3">
+                    神奈川大学 理学部 化学科 (SPRセンシングに関する研究室)
+                </h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2 text-sm sm:text-base">
+                    <li>
+                        <span class="font-medium">研究内容:</span> 光ファイバー型SPRセンサーシステムの応用研究
+                        <ul class="list-circle list-inside ml-4 text-gray-600">
+                            <li>神奈川大学では、**金蒸着光ファイバー屈折率センサーシステム**を用いたアルコールの定量分析に関する研究が行われています。このシステムは、角度変化や波長掃引が不要という特徴を持ち、シンプルな構造でありながら実用的な測定を可能にしています<sup class="text-xs">[<a href="#ref-31" class="text-blue-600 hover:underline" target="_blank">31</a>]</sup>。</li>
+                            <li><span class="font-medium">具体的な成果:</span>
+                                <ul class="list-square list-inside ml-4 text-gray-600">
+                                    <li>フェネチルアルコールやエタノールなど、様々なアルコールを0-5%程度の濃度範囲で定量分析できることが示されており、特に**屈折率に対する透過光強度の関係が共通の曲線を描く**という特性は、センサーの汎用性を示唆しています<sup class="text-xs">[<a href="#ref-31" class="text-blue-600 hover:underline" target="_blank">31</a>]</sup>。</li>
+                                    <li>実用化に向けた課題として、**温度変化による影響を補償する技術**の開発も試みられており、実際の環境下での安定した測定を目指しています<sup class="text-xs">[<a href="#ref-31" class="text-blue-600 hover:underline" target="_blank">31</a>]</sup>。</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="font-medium">優位性と差別化ポイント:</span>
+                        <ul class="list-circle list-inside ml-4 text-gray-600">
+                            <li>**「手間いらず」な実用性:** **角度変化や波長掃引が不要**なシステムを開発している点が最大の優位性です。これにより、測定の**簡便性と迅速性**が大幅に向上し、特殊な技術や熟練度を必要とせず、一般ユーザーや現場での利用に適しています。これは、測定プロセスの複雑さを低減するという点で、他研究との差別化が図られます。</li>
+                            <li>**汎用性の高いアプローチ:** 「屈折率に対する透過光強度の関係が共通の曲線を描く」という特性は、**様々な種類のアルコールに対して共通の校正曲線を使用できる**可能性を示唆しており、センサーの汎用性と応用範囲を広げます。</li>
+                            <li>**環境耐性と信頼性への配慮:** 温度補償技術の開発は、実際の環境下での**測定精度と信頼性**を高める上で重要であり、実用化に向けた堅実なアプローチを示しています。</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 研究機関カード: 立命館大学 ナノテクノロジー研究センター / ナノ材料・デバイス研究室など -->
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md mb-8 hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl sm:text-2xl font-semibold text-indigo-700 mb-3">
+                    立命館大学 ナノテクノロジー研究センター / ナノ材料・デバイス研究室など
+                </h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2 text-sm sm:text-base">
+                    <li>
+                        <span class="font-medium">研究内容:</span> 高感度SPRセンサーおよびバイオセンシング応用
+                        <ul class="list-circle list-inside ml-4 text-gray-600">
+                            <li>立命館大学では、SPRセンサーの**高感度化**に関する基礎研究や、**バイオセンシング応用**に焦点を当てた研究が広く行われています。アルコール濃度測定に直接特化した研究の公開情報は限られていますが、SPRの基盤技術開発を通じて間接的に貢献しています。</li>
+                            <li><span class="font-medium">具体的なアプローチ（一般的なSPR研究から類推）:</span>
+                                <ul class="list-square list-inside ml-4 text-gray-600">
+                                    <li>新しいプラズモン材料や構造（ナノ粒子、ナノ構造体など）を用いたSPRセンサーの感度向上。</li>
+                                    <li>多層膜構造によるSPR特性の最適化。</li>
+                                    <li>生体分子（酵素、抗体など）の固定化技術を用いた高選択性バイオセンサーの開発。これらの技術は、アルコール関連物質の検出に応用される可能性があります。</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="font-medium">優位性と差別化ポイント:</span>
+                        <ul class="list-circle list-inside ml-4 text-gray-600">
+                            <li>**基礎研究から応用への架け橋:** 特定のアルコール検出に特化せず、**SPRセンサー技術全体の基盤的な性能向上**（高感度化、新しい材料・構造の探求）に注力している点が優位性です。これにより、アルコール濃度測定を含む様々なバイオセンシング応用への道を開いています。</li>
+                            <li>**幅広い技術貢献:** ナノ粒子、多層膜、生体分子固定化など、SPR技術の様々な側面で革新を追求しており、将来的に**多機能かつ高精度なアルコールセンサー開発に貢献し得る多様な基盤技術**を有しています。</li>
+                            <li>**異分野連携の推進:** ナノテクノロジー研究センターなど、学内・学外の専門家との連携を通じて、材料科学とセンシング技術の融合を図り、**学際的なアプローチ**で新しいセンサーソリューションを創出しています。</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 研究機関カード: 東京工業大学 物質理工学院 材料系 / 応用化学系など -->
+            <div class="bg-gray-50 p-6 rounded-xl shadow-md mb-8 hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl sm:text-2xl font-semibold text-indigo-700 mb-3">
+                    東京工業大学 物質理工学院 材料系 / 応用化学系など
+                </h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2 text-sm sm:text-base">
+                    <li>
+                        <span class="font-medium">研究内容:</span> ナノプラズモニクス・光機能材料を用いた先進SPRセンサー
+                        <ul class="list-circle list-inside ml-4 text-gray-600">
+                            <li>東京工業大学では、**ナノプラズモニクス**や**光機能材料**の研究を基盤として、革新的なSPRセンサー技術の開発に取り組んでいます。これには、メタマテリアルやフォトニック結晶などの高度な光学構造を用いたSPRセンサーの研究が含まれる可能性があります。</li>
+                            <li><span class="font-medium">具体的なアプローチ（一般的なSPR研究から類推）:</span>
+                                <ul class="list-square list-inside ml-4 text-gray-600">
+                                    <li>**表面増強ラマン散乱（SERS）**とSPRを組み合わせた複合センシング技術の開発。SERSは、特定の分子のラマン散乱シグナルを大幅に増強することで、超高感度な分子識別を可能にする技術であり、SPRと組み合わせることで、屈折率変化に加えて分子特有の振動情報も取得し、アルコールやその代謝物の選択的・高感度検出に貢献する可能性があります。</li>
+                                    <li>微細加工技術を駆使したSPRチップの設計・製造。</li>
+                                    <li>新しい光学計測原理に基づくSPRシステムの開発。</li>
+                                    <li>これらの先進的なアプローチは、将来的なアルコールセンサーの性能向上（感度、選択性）や多機能化に貢献する基盤技術となり得ます。</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="font-medium">優位性と差別化ポイント:</span>
+                        <ul class="list-circle list-inside ml-4 text-gray-600">
+                            <li>**基礎科学と最先端技術の融合:** **ナノプラズモニクス**や**光機能材料**といった最先端の基礎科学研究をSPRに応用している点が最大の優位性です。これにより、従来のSPRの限界を超えるような、革新的な性能を持つセンサー開発を目指しています。</li>
+                            <li>**多機能・高精度の実現:** SPRと**SERS（表面増強ラマン散乱）を組み合わせる**アプローチは、単なる濃度測定に加えて、**分子の種類の識別という新たな次元の機能**を付与します。これは、より複雑な分析や、特定のアルコールの同定が必要な高度なアプリケーションにおいて、明確な差別化ポイントとなります。</li>
+                            <li>**微細加工技術による革新:** 微細加工技術を駆使したチップ設計・製造能力は、センサーの小型化、集積化、そして量産化の可能性を高め、将来的な実用化において重要な役割を果たします。</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- まとめと今後の展望セクション -->
+        <section class="mb-8">
+            <h2 class="text-2xl sm:text-3xl font-bold text-gray-700 mb-6 border-b-2 border-indigo-200 pb-2">
+                SPRアルコール濃度測定研究における各機関の優位性と今後の展望
+            </h2>
+            <p class="text-gray-700 leading-relaxed text-sm sm:text-base mb-4">
+                表面プラズモン共鳴（SPR）を用いたアルコール濃度測定の研究は、世界中の様々な研究機関によって多岐にわたるアプローチで進められています。それぞれの機関は、特定の強みや技術的優位性を持ち、SPRセンサーの実用化と高性能化に貢献しています。
+            </p>
+            <h3 class="text-xl sm:text-2xl font-semibold text-gray-700 mb-4">主要な研究アプローチと差別化ポイント・優位性</h3>
+            <ul class="list-disc list-inside text-gray-700 space-y-3 text-sm sm:text-base mb-6">
+                <li>
+                    <span class="font-medium text-indigo-700">新規材料・多層構造による高感度化 (中国、インドの研究機関):</span>
+                    <br>従来の金属膜に加え、**グラフェン、金属酸化物（Fe2O3、ZnO）、黒リンなどの新素材や多層構造**を用いることで、**超高感度**を実現し、ガス相や微量不純物といった困難な環境下での検出能力を向上させています。理論的裏付けに基づく最適な設計を追求し、非常に微細な濃度変化の検出を可能にしている点が優位性です。
+                </li>
+                <li>
+                    <span class="font-medium text-indigo-700">酵素を用いたバイオセンシングによる高選択性 (マレーシアの大学):</span>
+                    <br>**アルコールデヒドロゲナーゼ（ADH）などの酵素を導入**することで、特定のアルコール（例：エタノール）のみに特異的に応答し、他の類似物質からの干渉を大幅に低減しています。これにより、**複雑な混合物中からのターゲット成分の識別能力**が高く、医療診断や食品分析など、高精度な特定アルコール識別が求められる分野で特に有用です。
+                </li>
+                <li>
+                    <span class="font-medium text-indigo-700">高純度溶媒中の微量不純物検出 (韓国のソウル大学):</span>
+                    <br>**グラフェンを用いたSPRセンサー**により、半導体製造プロセスなどで用いられる高純度溶媒中の微量な芳香族不純物（サブppmレベル）を検出します。**産業用途に特化した高精度な品質管理**を可能にする点で優位性があります。
+                </li>
+                <li>
+                    <span class="font-medium text-indigo-700">実用性と簡便性を追求した小型センサー (鹿児島大学 満塩研究室、神奈川大学):</span>
+                    <br>**LED光源や光ファイバー/ガラス棒といったシンプルな素子**を用いたシステムは、**小型化と低コスト化**を実現し、従来の大型装置に比べて**現場での利用や携帯性**に優れています。特に鹿児島大学では、**テフロン機能膜や偏光を用いた選択性付与**により、複雑な混合物中からのターゲットアルコールの高精度検出という実用的な課題を解決しています。神奈川大学は、**角度や波長掃引が不要なシステム**により、測定の簡便性と迅速性を向上させています。これらの研究は、**実環境下での使いやすさ、簡便な操作、そして実用的な応用範囲**に大きな優位性を持っています。
+                </li>
+                <li>
+                    <span class="font-medium text-indigo-700">究極の携帯性とアクセシビリティ (新潟大学 スマートセンサー研究室):</span>
+                    <br>**スマートフォンとSPRデバイスの直接的な統合**により、SPRセンサーの携帯性とユーザーフレンドリーさを極限まで高めています。これにより、専門知識がないユーザーでも**どこでも手軽に測定できる**という革新的な価値を提供し、SPR技術の**普及と民主化**を推進しています。
+                </li>
+                <li>
+                    <span class="font-medium text-indigo-700">基盤技術と先進的な複合センシング (立命館大学、東京工業大学):</span>
+                    <br>立命館大学は、**SPRセンサー技術全体の基盤的な性能向上**（高感度化、新材料・構造の探求）に注力し、幅広いバイオセンシング応用への道を開いています。東京工業大学は、**ナノプラズモニクスや光機能材料の最先端研究**をSPRに応用し、特に**SPRと表面増強ラマン散乱（SERS）の複合化**により、単なる濃度測定だけでなく**分子の種類を識別する多機能性**を実現しています。これらの研究は、SPR技術の**根本的な性能限界を押し上げ、将来的な多機能・高精度センシングへの道筋**を示している点で優位性があります。
+                </li>
+            </ul>
+
+            <h3 class="text-xl sm:text-2xl font-semibold text-gray-700 mb-4">今後の展望</h3>
+            <p class="text-gray-700 leading-relaxed text-sm sm:text-base mb-4">
+                SPRを用いたアルコール濃度測定技術は、その高いポテンシャルから、今後も様々な分野での応用が期待され、基礎研究から実用化に向けた開発まで、幅広い研究が展開されていくことでしょう。
+            </p>
+            <p class="text-gray-700 leading-relaxed text-sm sm:text-base">
+                今後の研究は、**新材料・ナノ構造の探求**による感度向上、**多項目同時測定**機能の実現、そして**小型化・コスト削減・安定性向上**といった実用化への課題克服に焦点を当てて進展すると考えられます。また、**人工知能（AI）や機械学習**を組み合わせたデータ解析の高度化も、この分野の発展を加速させる重要な要素となるでしょう。これは、複雑な混合物中のアルコールをより高精度に識別し、リアルタイムでの意思決定を支援する「スマートセンシングシステム」の実現につながります。
+            </p>
+        </section>
+
+        <!-- 参考文献セクション -->
+        <section class="mt-12 border-t-2 border-indigo-200 pt-8">
+            <h2 class="text-2xl sm:text-3xl font-bold text-gray-700 mb-6">
+                参考文献
+            </h2>
+            <ol class="list-decimal list-outside text-gray-700 space-y-2 text-sm sm:text-base pl-5">
+                <li id="ref-1"><a href="https://www.researchgate.net/publication/389518976_A_Review_on_Various_Surface_Plasmon_Resonance-Based_Sensors" class="text-blue-600 hover:underline" target="_blank">A Review on Various Surface Plasmon Resonance-Based Sensors</a></li>
+                <li id="ref-12"><a href="https://www.mdpi.com/2079-6374/15/1/35" class="text-blue-600 hover:underline" target="_blank">Recent Advances in Surface Plasmon Resonance Biosensors for Food Safety and Quality Analysis</a></li>
+                <li id="ref-2"><a href="https://www.reichertspr.com/spr-systems/technology/what-is-spr" class="text-blue-600 hover:underline" target="_blank">What is SPR? - Reichert Technologies</a></li>
+                <li id="ref-3"><a href="https://biosensingusa.com/technologies/surface-plasmon-resonance/surface-plasmon-resonance-work/" class="text-blue-600 hover:underline" target="_blank">How Surface Plasmon Resonance (SPR) Works - Biosensing USA</a></li>
+                <li id="ref-24"><a href="https://www.mdpi.com/si/biosensors/SPR_Biosensors_and_Their_Applications" class="text-blue-600 hover:underline" target="_blank">Special Issue "SPR Biosensors and Their Applications" - Biosensors journal</a></li>
+                <li id="ref-16"><a href="https://drpress.org/ojs/index.php/HSET/article/view/12978" class="text-blue-600 hover:underline" target="_blank">Recent Advances in SPR Biosensors: A Review</a></li>
+                <li id="ref-35"><a href="https://shingi.jst.go.jp/pdf/2020/2020_niigata-u-3.pdf" class="text-blue-600 hover:underline" target="_blank">スマートフォン連携型小型SPRデバイスの開発 - JST</a></li>
+                <li id="ref-36"><a href="https://www.youtube.com/watch?v=LggxlHNDAPE" class="text-blue-600 hover:underline" target="_blank">Smartphone-based SPR sensor system for biomolecular detection - YouTube (新潟大学)</a></li>
+                <li id="ref-4"><a href="https://www.cytivalifesciences.co.jp/technologies/biacore/road/road01_02.html" class="text-blue-600 hover:underline" target="_blank">SPRの原理と特長 - Cytiva</a></li>
+                <li id="ref-49"><a href="https://www.e-coating.jp/solutions/pattern/lineup3/" class="text-blue-600 hover:underline" target="_blank">高機能コーティング - e-coating.jp</a></li>
+                <li id="ref-25"><a href="https://www.horiba.com/jpn/scientific/technologies/surface-plasmon-resonance-imaging/surface-plasmon-resonance-imaging/" class="text-blue-600 hover:underline" target="_blank">表面プラズモン共鳴イメージング (SPRi) - HORIBA</a></li>
+                <li id="ref-26"><a href="http://bunseki.kyushu-u.ac.jp/bunseki/media/092.pdf" class="text-blue-600 hover:underline" target="_blank">SPRの基本原理と応用 - 九州大学 分析センター</a></li>
+                <li id="ref-27"><a href="https://www.bohrium.com/paper-details/surface-plasmon-resonance-sensor-based-on-fe2o3-au-for-alcohol-concentration-detection/1019052841559392257-4100" class="text-blue-600 hover:underline" target="_blank">Surface Plasmon Resonance Sensor Based on Fe2O3/Au for Alcohol Concentration Detection - Bohrium</a></li>
+                <li id="ref-28"><a href="https://www.bohrium.com/paper-details/design-of-a-high-performance-surface-plasmon-resonance-sensor-for-precise-detection-of-alcoholic-compounds-in-forensic-and-medical-applications/1114111266504310819-636" class="text-blue-600 hover:underline" target="_blank">Design of a High-Performance Surface Plasmon Resonance Sensor for Precise Detection of Alcoholic Compounds in Forensic and Medical Applications - Bohrium</a></li>
+                <li id="ref-33"><a href="https://www.researchgate.net/publication/262953372_Fiber_Optic_Surface_Plasmon_Resonance_based_Ethanol_Sensor" class="text-blue-600 hover:underline" target="_blank">Fiber Optic Surface Plasmon Resonance based Ethanol Sensor - ResearchGate</a></li>
+                <li id="ref-5"><a href="http://repository.uin-malang.ac.id/19044/1/Surface%20Plasmon%20Resonance%28SPR%29%20Sensor%20for%20Measurement%20of%20Glucosa%20and%20Ethanol%20Concentrations.pdf" class="text-blue-600 hover:underline" target="_blank">Surface Plasmon Resonance (SPR) Sensor for Measurement of Glucosa and Ethanol Concentrations</a></li>
+                <li id="ref-38"><a href="https://www.researchgate.net/figure/The-surface-plasmon-resonance-SPR-sensors-transmittance-spectra-versus-the-wavelength_fig2_338516648" class="text-blue-600 hover:underline" target="_blank">The surface plasmon resonance (SPR) sensors transmittance spectra versus the wavelength</a></li>
+                <li id="ref-6"><a href="https://www.scirp.org/pdf/jmp_2015031615240360.pdf" class="text-blue-600 hover:underline" target="_blank">Sensitivity Enhancement of SPR Sensor with a Graphene Layer Using an SPRi-Lab+™ Instrument</a></li>
+                <li id="ref-50"><a href="https://www.horiba.com/jpn/company/about-horiba/readout/list/" class="text-blue-600 hover:underline" target="_blank">HORIBA Readout リスト</a></li>
+                <li id="ref-39"><a href="https://api.lib.kyushu-u.ac.jp/opac_download_md/1807057/isee0600.pdf" class="text-blue-600 hover:underline" target="_blank">表面プラズモン共鳴センサにおける光学特性に関する研究 - 九州大学</a></li>
+                <li id="ref-43"><a href="https://casiozaidan.org/files/pdf/038/38-15.pdf" class="text-blue-600 hover:underline" target="_blank">超臨界流体クロマトグラフィーを用いた新規高速分析法の開発 - カシオ科学振興財団</a></li>
+                <li id="ref-30"><a href="https://advanced.altech.jp/bionavis/" class="text-blue-600 hover:underline" target="_blank">表面プラズモン共鳴測定装置 Biacore - アルテック</a></li>
+                <li id="ref-51"><a href="https://fukuoka-u.repo.nii.ac.jp/record/2000467/files/T0113%20_0001.pdf" class="text-blue-600 hover:underline" target="_blank">表面プラズモン共鳴の基礎と応用 - 福岡大学</a></li>
+                <li id="ref-15"><a href="https://www.seaj.or.jp/file/kumamoto2012.pdf" class="text-blue-600 hover:underline" target="_blank">表面プラズモン共鳴の応用例 - 日本表面真空学会</a></li>
+                <li id="ref-17"><a href="https://www.researchgate.net/publication/388744220_Design_and_Optimization_of_a_Highly_Sensitive_Surface_Plasmon_Resonance_Biosensor_for_Accurate_Detection_of_Mycobacterium_Tuberculosis" class="text-blue-600 hover:underline" target="_blank">Design and Optimization of a Highly Sensitive Surface Plasmon Resonance Biosensor for Accurate Detection of Mycobacterium Tuberculosis</a></li>
+                <li id="ref-32"><a href="https://ouci.dntb.gov.ua/en/works/7pgGPKB9/" class="text-blue-600 hover:underline" target="_blank">Surface Plasmon Resonance Sensor Based on Fe2O3/Au for Alcohol Concentration Detection (Ukrainian abstract)</a></li>
+                <li id="ref-7"><a href="https://www.researchgate.net/publication/382207612_Surface_Plasmon_Resonance_Sensor_Based_on_Fe2O3Au_for_Alcohol_Concentration_Detection" class="text-blue-600 hover:underline" target="_blank">Surface Plasmon Resonance Sensor Based on Fe2O3/Au for Alcohol Concentration Detection</a></li>
+                <li id="ref-8"><a href="https://www.biotechniques.com/videos/sartorius_spr_if_an-introduction-to-surface-plasmon-resonance-spr/" class="text-blue-600 hover:underline" target="_blank">An Introduction to Surface Plasmon Resonance (SPR) - Sartorius</a></li>
+                <li id="ref-9"><a href="https://www.researchgate.net/publication/379663182_Detection_of_Water-alcohol_Content_Using_Surface_Plasmon_Resonance" class="text-blue-600 hover:underline" target="_blank">Detection of Water-alcohol Content Using Surface Plasmon Resonance</a></li>
+                <li id="ref-21"><a href="https://s-space.snu.ac.kr/handle/10371/216385" class="text-blue-600 hover:underline" target="_blank">Selective Detection of Aromatic Impurities in Isopropyl Alcohol with Graphene-Based Surface Plasmon Resonance Sensor</a></li>
+                <li id="ref-10"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7080119/" class="text-blue-600 hover:underline" target="_blank">Surface Plasmon Resonance Biosensors for Biomedical Applications</a></li>
+                <li id="ref-40"><a href="https://www.researchgate.net/publication/381119087_Surface_Plasmon_Resonance-Based_Biosensor_Design_Using_Circular_Disk_and_Thin_Wire_Resonator_for_Alcohol_Detection" class="text-blue-600 hover:underline" target="_blank">Surface Plasmon Resonance-Based Biosensor Design Using Circular Disk and Thin Wire Resonator for Alcohol Detection</a></li>
+                <li id="ref-31"><a href="https://www.jstage.jst.go.jp/article/bunsekikagaku/52/6/52_6_433/_article/-char/ja/" class="text-blue-600 hover:underline" target="_blank">金蒸着光ファイバー屈折率センサシステムによるアルコールの定量分析 - 分析化学</a></li>
+                <li id="ref-44"><a href="https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/download.php/KO50002002-20144167-0003.pdf?file_id=99981" class="text-blue-600 hover:underline" target="_blank">SPRの界面化学応用 - 慶應義塾大学</a></li>
+                <li id="ref-52"><a href="https://researchers.adm.niigata-u.ac.jp/html/553_ja.html" class="text-blue-600 hover:underline" target="_blank">新潟大学 研究者総覧 - スマートセンサー研究室</a></li>
+                <li id="ref-53"><a href="https://soran.cc.okayama-u.ac.jp/html/ca6482b13aba6ab0587ce9df1975c665_ja.html" class="text-blue-600 hover:underline" target="_blank">岡山大学 研究者詳細 - 光計測研究室</a></li>
+                <li id="ref-23"><a href="https://pubs.rsc.org/en/content/articlehtml/2025/tc/d4tc04890c" class="text-blue-600 hover:underline" target="_blank">Review—Recent Advances in Plasmonic Biosensors Based on 2D Materials</a></li>
+                <li id="ref-11"><a href="https://www.mdpi.com/1424-8220/24/14/4477" class="text-blue-600 hover:underline" target="_blank">Surface Plasmon Resonance Sensor Based on Fe2O3/Au for Alcohol Concentration Detection</a></li>
+                <li id="ref-18"><a href="https://pubs.acs.org/doi/10.1021/acs.langmuir.5c01808" class="text-blue-600 hover:underline" target="_blank">Graphene and Graphene Oxide for Surface Plasmon Resonance Biosensors</a></li>
+                <li id="ref-19"><a href="https://www.researchgate.net/figure/Ethanol-detection-in-the-SPR-device-a-SPR-response-of-variable-ethanol-concentrations_fig3_317685054" class="text-blue-600 hover:underline" target="_blank">Ethanol detection in the SPR device</a></li>
+                <li id="ref-47"><a href="https://www.scirp.org/journal/paperinformation?paperid=54662" class="text-blue-600 hover:underline" target="_blank">Highly Sensitive Surface Plasmon Resonance Sensor with Nano-structured Gold Spots for Liquid and Gas Phase Detection</a></li>
+                <li id="ref-34"><a href="https://colab.ws/articles/10.1109%2Ficrpset64863.2024.10955937" class="text-blue-600 hover:underline" target="_blank">Highly Sensitive and Broadband Photonic Crystal Fiber Biosensor for Cancer Cell Detection Using Surface Plasmon Resonance Technique</a></li>
+                <li id="ref-54"><a href="https://www.jst.go.jp/crds/pdf/2022/FR/CRDS-FY2022-FR-05.pdf" class="text-blue-600 hover:underline" target="_blank">科学技術未来戦略 - JST</a></li>
+                <li id="ref-48"><a href="https://www.mmc.co.jp/corporate/ja/business/rd/review/pdf/rd_review_2024.pdf" class="text-blue-600 hover:underline" target="_blank">三菱マテリアル 技術レビュー 2024</a></li>
+                <li id="ref-55"><a href="https://www.sekisui.co.jp/ir/document/annual/pdf/SC_IR2024_ALL_J.pdf" class="text-blue-600 hover:underline" target="_blank">積水化学グループ 統合報告書 2024</a></li>
+                <li id="ref-56"><a href="https://www.mhlw.go.jp/content/11120000/000788362.pdf" class="text-blue-600 hover:underline" target="_blank">健康日本21（第二次）推進プラン</a></li>
+                <li id="ref-57"><a href="https://annex.jsap.or.jp/photonics/kogaku/public/41-07-kaisetsu3.pdf" class="text-blue-600 hover:underline" target="_blank">表面プラズモン共鳴センサの現状と展望 - 応用物理学会</a></li>
+                <li id="ref-45"><a href="https://www8.cao.go.jp/cstp/sentan/kakushintekikenkyu/siryo/report9_miyata.pdf" class="text-blue-600 hover:underline" target="_blank">革新的研究開発推進プログラム - 内閣府</a></li>
+                <li id="ref-12"><a href="https://www.mdpi.com/2079-6374/15/1/35" class="text-blue-600 hover:underline" target="_blank">Recent Advances in Surface Plasmon Resonance Biosensors for Food Safety and Quality Analysis</a></li>
+                <li id="ref-20"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7915135/" class="text-blue-600 hover:underline" target="_blank">Recent advances in Surface Plasmon Resonance biosensors for biomedical applications</a></li>
+                <li id="ref-47"><a href="https://www.scirp.org/journal/paperinformation?paperid=54662" class="text-blue-600 hover:underline" target="_blank">Highly Sensitive Surface Plasmon Resonance Sensor with Nano-structured Gold Spots for Liquid and Gas Phase Detection</a></li>
+                <li id="ref-13"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8745978/" class="text-blue-600 hover:underline" target="_blank">A Novel Highly Sensitive Surface Plasmon Resonance Biosensor for Glucose Detection Based on Graphene-MoS2-TiO2 Hybrid Structure</a></li>
+                <li id="ref-39"><a href="https://api.lib.kyushu-u.ac.jp/opac_download_md/1807057/isee0600.pdf" class="text-blue-600 hover:underline" target="_blank">表面プラズモン共鳴センサにおける光学特性に関する研究 - 九州大学</a></li>
+                <li id="ref-58"><a href="https://www.iri-tokyo.jp/uploaded/attachment/1076.pdf" class="text-blue-600 hover:underline" target="_blank">東京都立産業技術研究センター 研究事例</a></li>
+                <li id="ref-45"><a href="https://www8.cao.go.jp/cstp/sentan/kakushintekikenkyu/siryo/report9_miyata.pdf" class="text-blue-600 hover:underline" target="_blank">革新的研究開発推進プログラム - 内閣府</a></li>
+                <li id="ref-15"><a href="https://www.seaj.or.jp/file/kumamoto2012.pdf" class="text-blue-600 hover:underline" target="_blank">表面プラズモン共鳴の応用例 - 日本表面真空学会</a></li>
+                <li id="ref-12"><a href="https://www.mdpi.com/2079-6374/15/1/35" class="text-blue-600 hover:underline" target="_blank">Recent Advances in Surface Plasmon Resonance Biosensors for Food Safety and Quality Analysis</a></li>
+                <li id="ref-27"><a href="https://www.bohrium.com/paper-details/surface-plasmon-resonance-sensor-based-on-fe2o3-au-for-alcohol-concentration-detection/1019052841559392257-4100" class="text-blue-600 hover:underline" target="_blank">Surface Plasmon Resonance Sensor Based on Fe2O3/Au for Alcohol Concentration Detection - Bohrium</a></li>
+                <li id="ref-22"><a href="https://www.mdpi.com/1424-8220/22/3/950" class="text-blue-600 hover:underline" target="_blank">Smartphone-Based Biosensors: Current Progress and Future Challenges</a></li>
+                <li id="ref-14"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8035490/" class="text-blue-600 hover:underline" target="_blank">Recent Progress of Surface Plasmon Resonance Sensors Based on 2D Materials</a></li>
+                <li id="ref-35"><a href="https://shingi.jst.go.jp/pdf/2020/2020_niigata-u-3.pdf" class="text-blue-600 hover:underline" target="_blank">スマートフォン連携型小型SPRデバイスの開発 - JST</a></li>
+                <li id="ref-59"><a href="https://tus.repo.nii.ac.jp/record/46/files/1197A.pdf" class="text-blue-600 hover:underline" target="_blank">導波路型表面プラズモン共鳴センサーに関する研究 - 東京理科大学</a></li>
+                <li id="ref-60"><a href="https://www.nedo.go.jp/content/100935449.pdf" class="text-blue-600 hover:underline" target="_blank">NEDO ロボット・AI・IoT関連技術開発</a></li>
+                <li id="ref-56"><a href="https://www.mhlw.go.jp/content/11120000/000788362.pdf" class="text-blue-600 hover:underline" target="_blank">健康日本21（第二次）推進プラン</a></li>
+                <li id="ref-41"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11699083/" class="text-blue-600 hover:underline" target="_blank">Novel Highly Sensitive Graphene-Coated Photonic Crystal Fiber SPR Sensor for Refractive Index Sensing</a></li>
+                <li id="ref-42"><a href="https://www.mdpi.com/1424-8220/24/12/3852" class="text-blue-600 hover:underline" target="_blank">Recent Advances in Functionalized 2D Material-Based Surface Plasmon Resonance Biosensors</a></li>
+                <li id="ref-19"><a href="https://www.researchgate.net/figure/Ethanol-detection-in-the-SPR-device-a-SPR-response-of-variable-ethanol-concentrations_fig3_317685054" class="text-blue-600 hover:underline" target="_blank">Ethanol detection in the SPR device</a></li>
+                <li id="ref-5"><a href="http://repository.uin-malang.ac.id/19044/1/Surface%20Plasmon%20Resonance%28SPR%29%20Sensor%20for%20Measurement%20of%20Glucosa%20and%20Ethanol%20Concentrations.pdf" class="text-blue-600 hover:underline" target="_blank">Surface Plasmon Resonance (SPR) Sensor for Measurement of Glucosa and Ethanol Concentrations</a></li>
+                <li id="ref-46"><a href="https://www.nedo.go.jp/content/100964384.pdf" class="text-blue-600 hover:underline" target="_blank">NEDO 燃料電池・水素技術開発戦略</a></li>
+                <li id="ref-35"><a href="https://shingi.jst.go.jp/pdf/2020/2020_niigata-u-3.pdf" class="text-blue-600 hover:underline" target="_blank">スマートフォン連携型小型SPRデバイスの開発 - JST</a></li>
+                <li id="ref-29"><a href="https://api.lib.kyushu-u.ac.jp/opac_download_md/1937147/Prof.Hayashi.20180810.pdf" class="text-blue-600 hover:underline" target="_blank">SPRの環境モニタリング応用 - 九州大学 林教授</a></li>
+                <li id="ref-37"><a href="http://sankei-fou.or.jp/research/reserch_1mitsushio2020.pdf" class="text-blue-600 hover:underline" target="_blank">携帯型バイオセンサーの開発と応用 - 三塩工業技術振興財団</a></li>
+                <li id="ref-31"><a href="https://www.jstage.jst.go.jp/article/bunsekikagaku/52/6/52_6_433/_article/-char/ja/" class="text-blue-600 hover:underline" target="_blank">金蒸着光ファイバー屈折率センサシステムによるアルコールの定量分析 - 分析化学</a></li>
+                <li id="ref-33"><a href="https://www.researchgate.net/publication/262953372_Fiber_Optic_Surface_Plasmon_Resonance_based_Ethanol_Sensor" class="text-blue-600 hover:underline" target="_blank">Fiber Optic Surface Plasmon Resonance based Ethanol Sensor - ResearchGate</a></li>
+                <!-- 満塩先生の論文への直接的な参照 -->
+                <li id="ref-1_2_jp"><a href="https://ris.kuas.kagoshima-u.ac.jp/html/100005096_ja.html" class="text-blue-600 hover:underline" target="_blank">満塩 勝 - 研究者総覧 - 鹿児島大学 (論文: 表面プラズモン共鳴による連続測定可能な高精度アルコール濃度センサ)</a></li>
+                <li id="ref-1_3_jp"><a href="http://www.cb.kagoshima-u.ac.jp/lab/tome/research/mitsushio.html" class="text-blue-600 hover:underline" target="_blank">小型で高機能・高性能のSPRセンサーシステムの開発 - 鹿児島大学工学部化学生命工学科吉留・満塩研究室</a></li>
+                <li id="ref-1_4_jp"><a href="https://projectdb.jst.go.jp/grant/JST-PROJECT-12102508/" class="text-blue-600 hover:underline" target="_blank">高揮発性物質に対して選択性を持つテフロン被覆金属蒸着ガラス棒センサー - JSTプロジェクトデータベース</a></li>
+                <li id="ref-1_5_jp"><a href="https://researchmap.jp/read0164649" class="text-blue-600 hover:underline" target="_blank">満塩 勝 (Msaru Mitushio) - マイポータル - researchmap (論文: Separation and detection of hydrocarbons and gasoline in automotive engine oil using a Teflon ® AF2400-coated golddeposited surface plasmon resonance-based glass rod sensor)</a></li>
+                <li id="ref-1_8_jp"><a href="https://www.jsac.or.jp/tenbou/TT72/p6.pdf" class="text-blue-600 hover:underline" target="_blank">国の制度が取り持った「産」と「学」の技術開発 - 日本分析化学会</a></li>
+                <li id="ref-2_2_jp"><a href="https://www.jstage.jst.go.jp/article/analsci/20/4/20_4_689/_article/-char/en" class="text-blue-600 hover:underline" target="_blank">Simplification and Evaluation of a Gold-deposited SPR Optical Fiber Sensor - J-Stage</a></li>
+                <li id="ref-2_4_jp"><a href="https://pubmed.ncbi.nlm.nih.gov/15116970/" class="text-blue-600 hover:underline" target="_blank">Simplification and evaluation of a gold-deposited SPR optical fiber sensor - PubMed</a></li>
+                <li id="ref-2_5_jp"><a href="https://pubmed.ncbi.nlm.nih.gov/21415505/" class="text-blue-600 hover:underline" target="_blank">A gold-deposited surface plasmon resonance-based optical fiber sensor system using various light-emitting diodes - PubMed</a></li>
+                <li id="ref-2_6_jp"><a href="https://ir.kagoshima-u.ac.jp/record/12108/files/Diss_%E5%A2%97%E6%B0%B8_%E5%8D%93%E6%9C%97_RKK424_2015.pdf" class="text-blue-600 hover:underline" target="_blank">学位論文 金蒸着ガラス棒表面プラズモン共鳴センサー装置の高性能化と センサーのテフロン被 - 鹿児島大学リポジトリ</a></li>
+                <li id="ref-2_8_jp"><a href="http://sankei-fou.or.jp/research/reserch_4mitusio_2016.pdf" class="text-blue-600 hover:underline" target="_blank">高精度の金蒸着ガラス棒 SPR センサーシステムの開発と 実際分析への応用</a></li>
+            </ol>
+        </section>
+
+        <footer class="text-center text-gray-500 text-xs mt-10">
+            <p>&copy; 2025 SPR研究動向. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
